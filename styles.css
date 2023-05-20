@@ -12,22 +12,56 @@ footer{
 }
 footer, footer .card, footer .card-footer{
     background-color: #181818 !important; 
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 20px 20px 0 0;
 }
 
 footer .icones a{
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     margin: 0 10px;
 }
 
 
 main{
     text-align: center;
+    margin: 40px 0;
 }
 
 main h2{
     margin: 20px 0;
 }
 
+main table, main table td, main table th{
+    border: 1px solid rgb(0, 0, 0);
+}
+main table td{
+    padding: 5px;
+}
+main table th{
+    text-align: center;
+    padding: 5px;
+}
+
+main table{
+    margin: 0 auto;
+}
+
+main table tr{
+    background-color: rgba(255, 255, 255, 0.487);
+    transition: ease 0.5s;
+}
+
+main table tr:hover{
+    cursor: pointer;
+    background-color: #706f6f;
+}
+
+main form{
+    margin: 0 auto !important;
+    padding: 0 auto !important;
+}
+
+main form textarea{
+    resize: none;
+}
